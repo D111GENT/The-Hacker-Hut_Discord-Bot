@@ -1,0 +1,461 @@
+[2023-03-16 15:30:50] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2023-03-16 15:30:50] [DEBUG   ] discord.client: on_ready has successfully been registered as an event
+[2023-03-16 15:30:50] [DEBUG   ] discord.client: on_message has successfully been registered as an event
+[2023-03-16 15:30:50] [INFO    ] discord.client: logging in using static token
+[2023-03-16 15:30:52] [DEBUG   ] discord.gateway: Created websocket connected to wss://gateway.discord.gg/
+[2023-03-16 15:30:52] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-us-east1-d-q2l5",{"micros":0.0}]']}}
+[2023-03-16 15:30:52] [DEBUG   ] discord.gateway: Shard ID None has sent the IDENTIFY payload.
+[2023-03-16 15:30:52] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:30:52] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'READY', 's': 1, 'op': 0, 'd': {'v': 10, 'user_settings': {}, 'user': {'verified': True, 'username': 'The Hacker Hut', 'mfa_enabled': True, 'id': '1085926730511958159', 'flags': 0, 'email': None, 'display_name': None, 'discriminator': '3329', 'bot': True, 'avatar': 'edf87ae6b2e39cbb8121d580e744d30a'}, 'session_type': 'normal', 'session_id': '555c76a529681261957e99b051750d0c', 'resume_gateway_url': 'wss://gateway-us-east1-d.discord.gg', 'relationships': [], 'private_channels': [], 'presences': [], 'guilds': [{'unavailable': True, 'id': '1084924878811050084'}], 'guild_join_requests': [], 'geo_ordered_rtc_regions': ['us-central', 'us-south', 'atlanta', 'us-east', 'newark'], 'application': {'id': '1085926730511958159', 'flags': 565248}, '_trace': ['["gateway-prd-us-east1-d-q2l5",{"micros":63191,"calls":["id_created",{"micros":1279,"calls":[]},"session_lookup_time",{"micros":341,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-blue-prd-2-51",{"micros":61228,"calls":["start_session",{"micros":56044,"calls":["discord-api-57c6865dbc-89xwt",{"micros":48884,"calls":["get_user",{"micros":15355},"get_guilds",{"micros":4003},"send_scheduled_deletion_message",{"micros":13},"guild_join_requests",{"micros":668},"authorized_ip_coro",{"micros":17}]}]},"starting_guild_connect",{"micros":52,"calls":[]},"presence_started",{"micros":280,"calls":[]},"guilds_started",{"micros":81,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":4703,"calls":[]},"connect_finished",{"micros":4707,"calls":[]},"build_ready",{"micros":20,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":41,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}]']}}
+[2023-03-16 15:30:52] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2023-03-16 15:30:52] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 555c76a529681261957e99b051750d0c).
+[2023-03-16 15:30:52] [DEBUG   ] discord.client: Dispatching event connect
+[2023-03-16 15:30:52] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'GUILD_CREATE', 's': 2, 'op': 0, 'd': {'region': 'deprecated', 'voice_states': [], 'preferred_locale': 'en-US', 'description': None, 'presences': [], 'vanity_url_code': None, 'stage_instances': [], 'application_command_counts': {}, 'features': ['COMMUNITY', 'NEWS'], 'member_count': 3, 'banner': None, 'lazy': True, 'members': [{'user': {'username': 'The Hacker Hut', 'public_flags': 0, 'id': '1085926730511958159', 'display_name': None, 'discriminator': '3329', 'bot': True, 'avatar_decoration': None, 'avatar': 'edf87ae6b2e39cbb8121d580e744d30a'}, 'roles': ['1085936126897946708'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2023-03-16T14:42:28.497000+00:00', 'flags': 1, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}], 'large': False, 'premium_tier': 0, 'latest_onboarding_question_id': None, 'mfa_level': 0, 'system_channel_flags': 0, 'hub_type': None, 'id': '1084924878811050084', 'safety_alerts_channel_id': None, 'stickers': [], 'joined_at': '2023-03-16T14:42:28.497000+00:00', 'afk_channel_id': None, 'system_channel_id': '1084924880534904844', 'unavailable': False, 'threads': [{'type': 11, 'total_message_sent': 1, 'thread_metadata': {'locked': False, 'invitable': True, 'create_timestamp': '2023-03-14T16:42:50.630000+00:00', 'auto_archive_duration': 4320, 'archived': False, 'archive_timestamp': '2023-03-14T16:42:50.630000+00:00'}, 'rate_limit_per_user': 0, 'parent_id': '1085240777992572940', 'owner_id': '329827924330938369', 'name': 'problem with area', 'message_count': 1, 'member_count': 1, 'last_message_id': '1085247457153273916', 'id': '1085241643520757782', 'guild_id': '1084924878811050084', 'flags': 0, 'applied_tags': ['1085240838755467264']}], 'roles': [{'version': 1678736693116, 'unicode_emoji': None, 'tags': {}, 'position': 0, 'permissions': '1071698529857', 'name': '@everyone', 'mentionable': False, 'managed': False, 'id': '1084924878811050084', 'icon': None, 'hoist': False, 'flags': 0, 'color': 0}, {'version': 1678809474952, 'unicode_emoji': None, 'tags': {'bot_id': '951121634046140416'}, 'position': 1, 'permissions': '268435459', 'name': 'Gumroad', 'mentionable': False, 'managed': True, 'id': '1085230336893530212', 'icon': None, 'hoist': False, 'flags': 0, 'color': 0}, {'version': 1678977748472, 'unicode_emoji': None, 'tags': {'bot_id': '1085926730511958159'}, 'position': 1, 'permissions': '8', 'name': 'The Hacker Hut', 'mentionable': False, 'managed': True, 'id': '1085936126897946708', 'icon': None, 'hoist': False, 'flags': 0, 'color': 0}], 'public_updates_channel_id': '1084925067667972217', 'owner_id': '329827924330938369', 'embedded_activities': [], 'premium_progress_bar_enabled': False, 'max_members': 500000, 'explicit_content_filter': 2, 'guild_hashes': {'version': 1, 'roles': {'omitted': False, 'hash': 'GY0RJg'}, 'metadata': {'omitted': False, 'hash': '73o2/w'}, 'channels': {'omitted': False, 'hash': 'yQUYwg'}}, 'afk_timeout': 300, 'channels': [{'version': 1678736648456, 'type': 4, 'position': 0, 'permission_overwrites': [], 'name': 'Text Channels', 'id': '1084924880534904842', 'flags': 0}, {'version': 1678736648463, 'type': 4, 'position': 0, 'permission_overwrites': [], 'name': 'Voice Channels', 'id': '1084924880534904843', 'flags': 0}, {'version': 1678813906390, 'type': 0, 'topic': 'Chat about anything you like in this channel.', 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [], 'parent_id': '1084924880534904842', 'name': 'lounge', 'last_message_id': '1085962290106486814', 'id': '1084924880534904844', 'flags': 0}, {'version': 1678736648479, 'user_limit': 0, 'type': 2, 'rtc_region': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [], 'parent_id': '1084924880534904843', 'name': 'General', 'last_message_id': None, 'id': '1084924880534904845', 'flags': 0, 'bitrate': 64000}, {'version': 1678736693076, 'type': 0, 'topic': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [{'type': 0, 'id': '1084924878811050084', 'deny': '2048', 'allow': '0'}], 'name': 'rules', 'last_message_id': None, 'id': '1084925067667972216', 'flags': 0}, {'version': 1678736693096, 'type': 0, 'topic': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [{'type': 0, 'id': '1084924878811050084', 'deny': '1024', 'allow': '0'}], 'name': 'moderator-only', 'last_message_id': '1084925068414554132', 'id': '1084925067667972217', 'flags': 0}, {'version': 1678812086877, 'type': 15, 'topic': 'Anything related to coding challenges can be discussed here.', 'template': '', 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [], 'parent_id': '1084924880534904842', 'name': 'coding-challenges', 'last_message_id': '1085241643520757782', 'id': '1085240777992572940', 'flags': 16, 'default_reaction_emoji': {'emoji_name': '🧠', 'emoji_id': None}, 'available_tags': [{'name': 'need help', 'moderated': False, 'id': '1085240838755467264', 'emoji_name': None, 'emoji_id': None}, {'name': 'solved', 'moderated': True, 'id': '1085241105727111208', 'emoji_name': None, 'emoji_id': None}]}], 'application_id': None, 'emojis': [], 'max_stage_video_channel_users': 50, 'premium_subscription_count': 0, 'max_video_channel_users': 25, 'home_header': None, 'verification_level': 1, 'splash': None, 'nsfw_level': 0, 'name': 'The Hacker Hut', 'rules_channel_id': '1084925067667972216', 'default_message_notifications': 1, 'guild_scheduled_events': [], 'icon': 'c341afcbfc4d68559d02506cc5bef7b4', 'discovery_splash': None, 'nsfw': False}}
+[2023-03-16 15:30:52] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2023-03-16 15:30:52] [DEBUG   ] discord.client: Dispatching event guild_available
+[2023-03-16 15:30:54] [DEBUG   ] discord.client: Dispatching event ready
+[2023-03-16 15:31:33] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:31:33] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:32:14] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:32:15] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:32:56] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:32:56] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:33:41] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2023-03-16 15:33:41] [DEBUG   ] discord.client: on_ready has successfully been registered as an event
+[2023-03-16 15:33:41] [DEBUG   ] discord.client: on_message has successfully been registered as an event
+[2023-03-16 15:33:41] [INFO    ] discord.client: logging in using static token
+[2023-03-16 15:33:42] [DEBUG   ] discord.gateway: Created websocket connected to wss://gateway.discord.gg/
+[2023-03-16 15:33:42] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-us-east1-c-dr8s",{"micros":0.0}]']}}
+[2023-03-16 15:33:42] [DEBUG   ] discord.gateway: Shard ID None has sent the IDENTIFY payload.
+[2023-03-16 15:33:43] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:33:43] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'READY', 's': 1, 'op': 0, 'd': {'v': 10, 'user_settings': {}, 'user': {'verified': True, 'username': 'The Hacker Hut', 'mfa_enabled': True, 'id': '1085926730511958159', 'flags': 0, 'email': None, 'display_name': None, 'discriminator': '3329', 'bot': True, 'avatar': 'edf87ae6b2e39cbb8121d580e744d30a'}, 'session_type': 'normal', 'session_id': '797b9c2278a746981ebbc1b7a5dba93a', 'resume_gateway_url': 'wss://gateway-us-east1-c.discord.gg', 'relationships': [], 'private_channels': [], 'presences': [], 'guilds': [{'unavailable': True, 'id': '1084924878811050084'}], 'guild_join_requests': [], 'geo_ordered_rtc_regions': ['us-central', 'us-south', 'atlanta', 'us-east', 'newark'], 'application': {'id': '1085926730511958159', 'flags': 565248}, '_trace': ['["gateway-prd-us-east1-c-dr8s",{"micros":61905,"calls":["id_created",{"micros":1101,"calls":[]},"session_lookup_time",{"micros":326,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-blue-prd-2-50",{"micros":59264,"calls":["start_session",{"micros":54477,"calls":["discord-api-57c6865dbc-742x5",{"micros":46880,"calls":["get_user",{"micros":25483},"get_guilds",{"micros":3093},"send_scheduled_deletion_message",{"micros":9},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":51,"calls":[]},"presence_started",{"micros":302,"calls":[]},"guilds_started",{"micros":104,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":4283,"calls":[]},"connect_finished",{"micros":4288,"calls":[]},"build_ready",{"micros":19,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":20,"calls":[]}]}]}]']}}
+[2023-03-16 15:33:43] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2023-03-16 15:33:43] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 797b9c2278a746981ebbc1b7a5dba93a).
+[2023-03-16 15:33:43] [DEBUG   ] discord.client: Dispatching event connect
+[2023-03-16 15:33:43] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'GUILD_CREATE', 's': 2, 'op': 0, 'd': {'public_updates_channel_id': '1084925067667972217', 'unavailable': False, 'premium_progress_bar_enabled': False, 'icon': 'c341afcbfc4d68559d02506cc5bef7b4', 'description': None, 'lazy': True, 'embedded_activities': [], 'application_id': None, 'preferred_locale': 'en-US', 'system_channel_id': '1084924880534904844', 'latest_onboarding_question_id': None, 'max_video_channel_users': 25, 'channels': [{'version': 1678736648456, 'type': 4, 'position': 0, 'permission_overwrites': [], 'name': 'Text Channels', 'id': '1084924880534904842', 'flags': 0}, {'version': 1678736648463, 'type': 4, 'position': 0, 'permission_overwrites': [], 'name': 'Voice Channels', 'id': '1084924880534904843', 'flags': 0}, {'version': 1678813906390, 'type': 0, 'topic': 'Chat about anything you like in this channel.', 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [], 'parent_id': '1084924880534904842', 'name': 'lounge', 'last_message_id': '1085962290106486814', 'id': '1084924880534904844', 'flags': 0}, {'version': 1678736648479, 'user_limit': 0, 'type': 2, 'rtc_region': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [], 'parent_id': '1084924880534904843', 'name': 'General', 'last_message_id': None, 'id': '1084924880534904845', 'flags': 0, 'bitrate': 64000}, {'version': 1678736693076, 'type': 0, 'topic': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [{'type': 0, 'id': '1084924878811050084', 'deny': '2048', 'allow': '0'}], 'name': 'rules', 'last_message_id': None, 'id': '1084925067667972216', 'flags': 0}, {'version': 1678736693096, 'type': 0, 'topic': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [{'type': 0, 'id': '1084924878811050084', 'deny': '1024', 'allow': '0'}], 'name': 'moderator-only', 'last_message_id': '1084925068414554132', 'id': '1084925067667972217', 'flags': 0}, {'version': 1678812086877, 'type': 15, 'topic': 'Anything related to coding challenges can be discussed here.', 'template': '', 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [], 'parent_id': '1084924880534904842', 'name': 'coding-challenges', 'last_message_id': '1085241643520757782', 'id': '1085240777992572940', 'flags': 16, 'default_reaction_emoji': {'emoji_name': '🧠', 'emoji_id': None}, 'available_tags': [{'name': 'need help', 'moderated': False, 'id': '1085240838755467264', 'emoji_name': None, 'emoji_id': None}, {'name': 'solved', 'moderated': True, 'id': '1085241105727111208', 'emoji_name': None, 'emoji_id': None}]}], 'owner_id': '329827924330938369', 'large': False, 'home_header': None, 'max_stage_video_channel_users': 50, 'safety_alerts_channel_id': None, 'id': '1084924878811050084', 'region': 'deprecated', 'guild_scheduled_events': [], 'discovery_splash': None, 'vanity_url_code': None, 'joined_at': '2023-03-16T14:42:28.497000+00:00', 'voice_states': [], 'splash': None, 'members': [{'user': {'username': 'The Hacker Hut', 'public_flags': 0, 'id': '1085926730511958159', 'display_name': None, 'discriminator': '3329', 'bot': True, 'avatar_decoration': None, 'avatar': 'edf87ae6b2e39cbb8121d580e744d30a'}, 'roles': ['1085936126897946708'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2023-03-16T14:42:28.497000+00:00', 'flags': 1, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}], 'explicit_content_filter': 2, 'threads': [{'type': 11, 'total_message_sent': 1, 'thread_metadata': {'locked': False, 'invitable': True, 'create_timestamp': '2023-03-14T16:42:50.630000+00:00', 'auto_archive_duration': 4320, 'archived': False, 'archive_timestamp': '2023-03-14T16:42:50.630000+00:00'}, 'rate_limit_per_user': 0, 'parent_id': '1085240777992572940', 'owner_id': '329827924330938369', 'name': 'problem with area', 'message_count': 1, 'member_count': 1, 'last_message_id': '1085247457153273916', 'id': '1085241643520757782', 'guild_id': '1084924878811050084', 'flags': 0, 'applied_tags': ['1085240838755467264']}], 'banner': None, 'afk_channel_id': None, 'emojis': [], 'features': ['COMMUNITY', 'NEWS'], 'stage_instances': [], 'premium_subscription_count': 0, 'mfa_level': 0, 'verification_level': 1, 'presences': [], 'nsfw_level': 0, 'afk_timeout': 300, 'max_members': 500000, 'nsfw': False, 'rules_channel_id': '1084925067667972216', 'roles': [{'version': 1678736693116, 'unicode_emoji': None, 'tags': {}, 'position': 0, 'permissions': '1071698529857', 'name': '@everyone', 'mentionable': False, 'managed': False, 'id': '1084924878811050084', 'icon': None, 'hoist': False, 'flags': 0, 'color': 0}, {'version': 1678809474952, 'unicode_emoji': None, 'tags': {'bot_id': '951121634046140416'}, 'position': 1, 'permissions': '268435459', 'name': 'Gumroad', 'mentionable': False, 'managed': True, 'id': '1085230336893530212', 'icon': None, 'hoist': False, 'flags': 0, 'color': 0}, {'version': 1678977748472, 'unicode_emoji': None, 'tags': {'bot_id': '1085926730511958159'}, 'position': 1, 'permissions': '8', 'name': 'The Hacker Hut', 'mentionable': False, 'managed': True, 'id': '1085936126897946708', 'icon': None, 'hoist': False, 'flags': 0, 'color': 0}], 'guild_hashes': {'version': 1, 'roles': {'omitted': False, 'hash': 'GY0RJg'}, 'metadata': {'omitted': False, 'hash': '73o2/w'}, 'channels': {'omitted': False, 'hash': 'yQUYwg'}}, 'premium_tier': 0, 'stickers': [], 'default_message_notifications': 1, 'application_command_counts': {}, 'name': 'The Hacker Hut', 'system_channel_flags': 0, 'member_count': 3, 'hub_type': None}}
+[2023-03-16 15:33:43] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2023-03-16 15:33:43] [DEBUG   ] discord.client: Dispatching event guild_available
+[2023-03-16 15:33:45] [DEBUG   ] discord.client: Dispatching event ready
+[2023-03-16 15:34:12] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2023-03-16 15:34:12] [DEBUG   ] discord.client: on_ready has successfully been registered as an event
+[2023-03-16 15:34:12] [DEBUG   ] discord.client: on_message has successfully been registered as an event
+[2023-03-16 15:34:12] [INFO    ] discord.client: logging in using static token
+[2023-03-16 15:34:13] [DEBUG   ] discord.gateway: Created websocket connected to wss://gateway.discord.gg/
+[2023-03-16 15:34:13] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-us-east1-c-g3sc",{"micros":0.0}]']}}
+[2023-03-16 15:34:13] [DEBUG   ] discord.gateway: Shard ID None has sent the IDENTIFY payload.
+[2023-03-16 15:34:13] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:34:13] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'READY', 's': 1, 'op': 0, 'd': {'v': 10, 'user_settings': {}, 'user': {'verified': True, 'username': 'The Hacker Hut', 'mfa_enabled': True, 'id': '1085926730511958159', 'flags': 0, 'email': None, 'display_name': None, 'discriminator': '3329', 'bot': True, 'avatar': 'edf87ae6b2e39cbb8121d580e744d30a'}, 'session_type': 'normal', 'session_id': '90c4246c1ce00f051643aadfdb4dae0f', 'resume_gateway_url': 'wss://gateway-us-east1-c.discord.gg', 'relationships': [], 'private_channels': [], 'presences': [], 'guilds': [{'unavailable': True, 'id': '1084924878811050084'}], 'guild_join_requests': [], 'geo_ordered_rtc_regions': ['us-central', 'us-south', 'atlanta', 'us-east', 'newark'], 'application': {'id': '1085926730511958159', 'flags': 565248}, '_trace': ['["gateway-prd-us-east1-c-g3sc",{"micros":205056,"calls":["id_created",{"micros":915,"calls":[]},"session_lookup_time",{"micros":312,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-blue-prd-2-2",{"micros":202822,"calls":["start_session",{"micros":188684,"calls":["discord-api-57c6865dbc-f7tcq",{"micros":174035,"calls":["get_user",{"micros":16416},"get_guilds",{"micros":46516},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":2822,"calls":[]},"guilds_started",{"micros":73,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":11136,"calls":[]},"connect_finished",{"micros":11143,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":17,"calls":[]}]}]}]']}}
+[2023-03-16 15:34:13] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2023-03-16 15:34:13] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 90c4246c1ce00f051643aadfdb4dae0f).
+[2023-03-16 15:34:13] [DEBUG   ] discord.client: Dispatching event connect
+[2023-03-16 15:34:13] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'GUILD_CREATE', 's': 2, 'op': 0, 'd': {'embedded_activities': [], 'presences': [], 'guild_hashes': {'version': 1, 'roles': {'omitted': False, 'hash': 'GY0RJg'}, 'metadata': {'omitted': False, 'hash': '73o2/w'}, 'channels': {'omitted': False, 'hash': 'yQUYwg'}}, 'discovery_splash': None, 'description': None, 'stickers': [], 'voice_states': [], 'region': 'deprecated', 'mfa_level': 0, 'premium_tier': 0, 'lazy': True, 'vanity_url_code': None, 'features': ['COMMUNITY', 'NEWS'], 'afk_channel_id': None, 'max_stage_video_channel_users': 50, 'id': '1084924878811050084', 'emojis': [], 'premium_progress_bar_enabled': False, 'preferred_locale': 'en-US', 'icon': 'c341afcbfc4d68559d02506cc5bef7b4', 'splash': None, 'joined_at': '2023-03-16T14:42:28.497000+00:00', 'latest_onboarding_question_id': None, 'max_video_channel_users': 25, 'threads': [{'type': 11, 'total_message_sent': 1, 'thread_metadata': {'locked': False, 'invitable': True, 'create_timestamp': '2023-03-14T16:42:50.630000+00:00', 'auto_archive_duration': 4320, 'archived': False, 'archive_timestamp': '2023-03-14T16:42:50.630000+00:00'}, 'rate_limit_per_user': 0, 'parent_id': '1085240777992572940', 'owner_id': '329827924330938369', 'name': 'problem with area', 'message_count': 1, 'member_count': 1, 'last_message_id': '1085247457153273916', 'id': '1085241643520757782', 'guild_id': '1084924878811050084', 'flags': 0, 'applied_tags': ['1085240838755467264']}], 'public_updates_channel_id': '1084925067667972217', 'system_channel_id': '1084924880534904844', 'home_header': None, 'default_message_notifications': 1, 'rules_channel_id': '1084925067667972216', 'explicit_content_filter': 2, 'large': False, 'application_command_counts': {}, 'verification_level': 1, 'members': [{'user': {'username': 'The Hacker Hut', 'public_flags': 0, 'id': '1085926730511958159', 'display_name': None, 'discriminator': '3329', 'bot': True, 'avatar_decoration': None, 'avatar': 'edf87ae6b2e39cbb8121d580e744d30a'}, 'roles': ['1085936126897946708'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2023-03-16T14:42:28.497000+00:00', 'flags': 1, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}], 'application_id': None, 'owner_id': '329827924330938369', 'nsfw_level': 0, 'stage_instances': [], 'roles': [{'version': 1678736693116, 'unicode_emoji': None, 'tags': {}, 'position': 0, 'permissions': '1071698529857', 'name': '@everyone', 'mentionable': False, 'managed': False, 'id': '1084924878811050084', 'icon': None, 'hoist': False, 'flags': 0, 'color': 0}, {'version': 1678809474952, 'unicode_emoji': None, 'tags': {'bot_id': '951121634046140416'}, 'position': 1, 'permissions': '268435459', 'name': 'Gumroad', 'mentionable': False, 'managed': True, 'id': '1085230336893530212', 'icon': None, 'hoist': False, 'flags': 0, 'color': 0}, {'version': 1678977748472, 'unicode_emoji': None, 'tags': {'bot_id': '1085926730511958159'}, 'position': 1, 'permissions': '8', 'name': 'The Hacker Hut', 'mentionable': False, 'managed': True, 'id': '1085936126897946708', 'icon': None, 'hoist': False, 'flags': 0, 'color': 0}], 'system_channel_flags': 0, 'member_count': 3, 'unavailable': False, 'nsfw': False, 'channels': [{'version': 1678736648456, 'type': 4, 'position': 0, 'permission_overwrites': [], 'name': 'Text Channels', 'id': '1084924880534904842', 'flags': 0}, {'version': 1678736648463, 'type': 4, 'position': 0, 'permission_overwrites': [], 'name': 'Voice Channels', 'id': '1084924880534904843', 'flags': 0}, {'version': 1678813906390, 'type': 0, 'topic': 'Chat about anything you like in this channel.', 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [], 'parent_id': '1084924880534904842', 'name': 'lounge', 'last_message_id': '1085962290106486814', 'id': '1084924880534904844', 'flags': 0}, {'version': 1678736648479, 'user_limit': 0, 'type': 2, 'rtc_region': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [], 'parent_id': '1084924880534904843', 'name': 'General', 'last_message_id': None, 'id': '1084924880534904845', 'flags': 0, 'bitrate': 64000}, {'version': 1678736693076, 'type': 0, 'topic': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [{'type': 0, 'id': '1084924878811050084', 'deny': '2048', 'allow': '0'}], 'name': 'rules', 'last_message_id': None, 'id': '1084925067667972216', 'flags': 0}, {'version': 1678736693096, 'type': 0, 'topic': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [{'type': 0, 'id': '1084924878811050084', 'deny': '1024', 'allow': '0'}], 'name': 'moderator-only', 'last_message_id': '1084925068414554132', 'id': '1084925067667972217', 'flags': 0}, {'version': 1678812086877, 'type': 15, 'topic': 'Anything related to coding challenges can be discussed here.', 'template': '', 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [], 'parent_id': '1084924880534904842', 'name': 'coding-challenges', 'last_message_id': '1085241643520757782', 'id': '1085240777992572940', 'flags': 16, 'default_reaction_emoji': {'emoji_name': '🧠', 'emoji_id': None}, 'available_tags': [{'name': 'need help', 'moderated': False, 'id': '1085240838755467264', 'emoji_name': None, 'emoji_id': None}, {'name': 'solved', 'moderated': True, 'id': '1085241105727111208', 'emoji_name': None, 'emoji_id': None}]}], 'max_members': 500000, 'banner': None, 'name': 'The Hacker Hut', 'hub_type': None, 'premium_subscription_count': 0, 'guild_scheduled_events': [], 'afk_timeout': 300, 'safety_alerts_channel_id': None}}
+[2023-03-16 15:34:13] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2023-03-16 15:34:13] [DEBUG   ] discord.client: Dispatching event guild_available
+[2023-03-16 15:34:15] [DEBUG   ] discord.client: Dispatching event ready
+[2023-03-16 15:34:54] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:34:54] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:35:36] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:35:36] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:36:17] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:36:17] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:36:58] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:36:58] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:37:39] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:37:39] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:38:21] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:38:21] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:39:02] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:39:02] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:39:43] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:39:43] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:40:24] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:40:24] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:41:06] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:41:06] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:41:47] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:41:47] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:42:29] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:42:29] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:43:10] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:43:10] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:43:51] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:43:51] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:44:32] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:44:32] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 15:45:14] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2023-03-16 15:45:14] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2023-03-16 16:23:38] [WARNING ] discord.gateway: Shard ID None has stopped responding to the gateway. Closing and restarting.
+[2023-03-16 16:23:38] [DEBUG   ] discord.gateway: Timed out receiving packet. Attempting a reconnect.
+[2023-03-16 16:23:38] [DEBUG   ] discord.client: Got a request to RESUME the websocket.
+[2023-03-16 16:23:38] [DEBUG   ] discord.client: Dispatching event disconnect
+[2023-03-16 16:23:38] [DEBUG   ] discord.client: Dispatching event disconnect
+[2023-03-16 16:23:38] [ERROR   ] discord.client: Attempting a reconnect in 0.89s
+Traceback (most recent call last):
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 479, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\http.py", line 536, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 779, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+[2023-03-16 16:23:39] [DEBUG   ] discord.client: Dispatching event disconnect
+[2023-03-16 16:23:39] [ERROR   ] discord.client: Attempting a reconnect in 1.10s
+Traceback (most recent call last):
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 479, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\http.py", line 536, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 779, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+[2023-03-16 16:23:40] [DEBUG   ] discord.client: Dispatching event disconnect
+[2023-03-16 16:23:40] [ERROR   ] discord.client: Attempting a reconnect in 1.60s
+Traceback (most recent call last):
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 479, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\http.py", line 536, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 779, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+[2023-03-16 16:23:42] [DEBUG   ] discord.client: Dispatching event disconnect
+[2023-03-16 16:23:42] [ERROR   ] discord.client: Attempting a reconnect in 8.86s
+Traceback (most recent call last):
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 479, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\http.py", line 536, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 779, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+[2023-03-16 16:23:51] [DEBUG   ] discord.client: Dispatching event disconnect
+[2023-03-16 16:23:51] [ERROR   ] discord.client: Attempting a reconnect in 29.21s
+Traceback (most recent call last):
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 479, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\http.py", line 536, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 779, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+[2023-03-16 16:24:20] [DEBUG   ] discord.client: Dispatching event disconnect
+[2023-03-16 16:24:20] [ERROR   ] discord.client: Attempting a reconnect in 1.17s
+Traceback (most recent call last):
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 479, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\http.py", line 536, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 779, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+[2023-03-16 16:24:21] [DEBUG   ] discord.client: Dispatching event disconnect
+[2023-03-16 16:24:21] [ERROR   ] discord.client: Attempting a reconnect in 26.24s
+Traceback (most recent call last):
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1152, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\client.py", line 656, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 479, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\gateway.py", line 372, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\http.py", line 536, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 779, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 536, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\d111g\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
